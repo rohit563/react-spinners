@@ -29,10 +29,11 @@ class Loader extends React.Component {
         animation: ${i === 1 ? right : left} 2s 0s infinite linear;
     }`;
 
-  wrapper = () => css`{        
+  wrapper = () => css`{
         width: ${this.props.size}px;
         height: ${this.props.size}px;
         position: relative;
+        margin: auto;
     }`;
 
   render() {
